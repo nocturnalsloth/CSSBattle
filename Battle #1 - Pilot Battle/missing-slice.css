@@ -1,0 +1,41 @@
+<div class="pie1">
+<div class="pie2"></div>
+<div class="pie3"></div>
+</div>
+
+<style>
+
+body{
+	background: #E3516E
+}
+  .pie1{
+    height: 100px;
+    width: 100px;
+    background: #FADE8B;
+    border-radius: 0 100% 0 0%;
+    position: absolute;
+    bottom: 150px;
+    left: 200px;
+  }
+ 
+  .pie2{
+    height: 100px;
+    width: 100px;
+    background: #51B5A9;
+    border-radius: 0 100% 0 0%;
+    position: relative;
+    transform: rotate(270deg);
+    right: 100px;
+  }
+
+  .pie3{
+    height: 100px;
+    width: 100px;
+    background: #F7F3D7;
+    border-radius: 0 100% 0 0%;
+    position: relative;
+    transform: rotate(180deg);
+   	right: 100px;
+  }
+
+</style>
