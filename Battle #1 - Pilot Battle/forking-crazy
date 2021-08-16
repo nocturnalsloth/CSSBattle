@@ -1,0 +1,72 @@
+<div class="neck"></div>
+<div class="back"></div>
+<div class="tines blue1"></div>
+<div class="tines blue2"></div>
+<div class="tines blue3"></div>
+<div class="tines blue4"></div>
+<div class="tines gap1"></div>
+<div class="tines gap2"></div>
+<div class="tines gap3"></div>
+<style>
+  
+  body{
+    background: #6592CF;
+  }
+  
+  div{
+    background: #060F55;
+  }
+  .neck{
+    height:60px;
+    width: 20px;
+    position: absolute;
+   	bottom: 0;
+    left: 190;
+  }
+  .back{
+    height:140;
+    width: 140;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    bottom:50;
+    transform: translate(-50%)
+  }
+  
+  .tines{
+    height: 130px;
+    width: 20px;
+    background: #6592CF;
+    position: absolute;
+    left: 150px;
+    top: 30;
+    border-radius: 20px;
+  }
+  .gap2{
+    left: 190px
+  }
+  .gap3{
+    left: 230px
+  }
+  .blue1{
+    background: #060F55;
+    left:130px;
+    top: 50px;
+  }
+  .blue2{
+    background: #060F55;
+    left: 170px;
+    top: 50px;
+  }
+  .blue3{
+    background: #060F55;
+    left:210px;
+    top: 50px;
+  }
+  .blue4{
+    background: #060F55;
+    left:250px;
+    top: 50px
+  }
+
+</style>
